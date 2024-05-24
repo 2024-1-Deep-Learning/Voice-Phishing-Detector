@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "voice-phishing-detector",
+  "private_key_id": "1c6017a2e15a471ae062090d0e7fd2fe095f5b8e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpsQztwkhNEtEK\nKmgNytuPMIqo2LdyR7nZkoROXrJlqGN8+34WUxPUH0OVDujcDcNdrd5Ed0Et1FE+\n2UI2R2YozPAELI11ncua7MIFWIryk16I3tcbYKZ0SI+z+XSStJhbAhNHZZ6FWvcV\nwyZl3oAcGYLfoGYFjvR5VVknYLNZ92JJ9RHPXHLsxOvM/BVpkL/MYcel3oZPql70\n6Pvx2NdlGauoS6iXdw+Tm8VLDj8mYaDHW+/hpVGxb+3fOHx7+ODyELGNXFReaFNU\noApsD/alXmP0Fg2K4piEnt5ay7pR+wwnna99SQilkbit+UVJP+aZw2DD/gHtFvAU\nAJNCvGdnAgMBAAECggEAA64gpvy9BK7mdF9RvRAr4tcdVWbIfmSqgIV6SRjUqvpp\nQ0n7r2WYhdPdFgZ/a7EAuQS5pVJ7dLr+EsGI0L82VVGHLbqpoWYNXGF2HmzlK+L2\nUebt/gdX6iheCtEw2LMB+uH4o7vDIbFEr+bOQQyqSpxjB5E6+ok3KXUoZyo5uYxo\nN5zCzN/vFxjFM0GjGAgtNL3EacAcDvbTxmdG+0I9KHiyYenuB5c52oMuIxjdwwkf\n3F8Fdy9Hz9A66dnyuS3+3+RPCaIWatQS3z+Qx0M7ZMmrGHqmyu92jbo2BAFUGESb\nsRT5zI2u2/EdpHTwe9I0L7P8iVBFAon5SShUH377AQKBgQDf8Imt61jRnE79OWdW\nTLUsgRL0kkEUv8XKjbmTjVV1g61YQKwbaMHyLLhqRkFaay52sxFlKI4nRseJf3Vh\nuQKXxd9+9o/L/VUVMkBVb+bIXH/8WQiqkGKe7keiJuiM54UeXfGEChxpB6Ay8/KX\ncMJTC+dX/+Z0Ganlqot7yYbEcQKBgQDB/E4jPGCTFHLBqeJfO3z5MVEEomkBVrKd\njBlN/+khgzC8Hs0wsOIAwEckGDEfGvrtiD6vEZJNpElIJEo0nV6ATq5EuxlfJgem\nPcrPIdzQn18lavKe+Gmc6kFtg7xBTQkl6yxfDADIJlpsOkgSF2f2JwtM+YAUw8JT\nVXlshKh1VwKBgQCwlH4r6sD9f7B1UjdewFu3/QtSWKUC1HkFUB298Jsrb6pXRZ+w\neTk9WfAMtNtBjfR0Wpzj1EfLRq9+h0eqx/T4cmnaNleK9XaKoTZDaFplMTMma5o+\nzF1HjwJjJSUIPmMkX9VaVZKzavTyWJO4wIwqad+A72Lrt3TViVY1ROKEsQKBgGUu\nvXMToywUlmb9vd3+oYk5eBD6xdq05iXXVbuhqHCahWkah9zF5pyNro3dMIIRCKGt\nV0Tp3W4yKyc+Bpa7Hve+Epg3H1zJ8WN9B7RS7WLEPlS+HB9fY3c9mTMOa7uD+ymU\nKWjKUf4UQ0YAgGcvXkK+yt4zpeMu2MWu5876wwOxAoGAX+UEBqdNCTSD5brOPNRv\nbj+EJAzU2g6y3Zr73r9vPb9jYRAUkJC0kNUHFVHnYvsqFQ7EekhMN8f9ufYW2JeS\nFjoy8RtTxh9BNmc5C/dvzmfVZLhkyFlCaMgGsOYS1CJs5F1ymGfp1JrXc2kTAJfw\nY1VL4rNFvqybm69t4k54JCY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "voicephising@voice-phishing-detector.iam.gserviceaccount.com",
+  "client_id": "100382629328145823634",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/voicephising%40voice-phishing-detector.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
