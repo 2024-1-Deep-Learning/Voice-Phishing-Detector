@@ -1,6 +1,7 @@
 from google.cloud import speech
 from google.cloud import storage
 import os
+import io
 import pandas as pd
 
 def upload_blob(bucket_name, source_file_name, destination_blob_name):
@@ -35,6 +36,29 @@ def transcribe_long_audio(gcs_uri):
         
     return response
 
+def transcribe_speech_short(audio_file_path):
+    client = speech.SpeechClient()
+
+    with io.open(audio_file_path, "rb") as audio_file:
+        content = audio_file.read()
+
+    audio = speech.RecognitionAudio(content=content)
+    config = speech.RecognitionConfig(
+        encoding=speech.RecognitionConfig.AudioEncoding.MP3,  # 오디오 파일 형식에 맞게 설정
+        sample_rate_hertz=16000,
+        max_alternatives=1,
+        language_code="ko-KR",
+        enable_automatic_punctuation=True,
+    )
+
+    print("Waiting for operation to complete...")
+    response = client.recognize(config=config, audio=audio)
+
+#     for result in response.results:
+#         print("Transcript: {}".format(result.alternatives[0].transcript))
+        
+    return response
+
 if __name__ == "__main__":
     # 업로드 필요시 사용
     # bucket_name = "your-bucket-name"
@@ -48,7 +72,7 @@ if __name__ == "__main__":
     client = speech.SpeechClient()
     transcripts = []
 
-    for i in range(1, 414):
+    for i in range(1, 411):
         if i < 10:
             gcs_uri = f"gs://voicephising_seyeon/voicephishing/000{i}.mp3"
         elif i < 100:
