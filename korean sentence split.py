@@ -41,3 +41,5 @@ if __name__ == "__main__":
     # CSV로 저장
     output_csv_file = "split_voicephishing.csv"
     save_to_csv(split_voicephishing, output_csv_file)
+    
+    git commit -am "my mistake"
