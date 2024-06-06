@@ -89,7 +89,7 @@ if __name__ == "__main__":
                   metrics=['accuracy'])
 
     # ModelCheckpoint 콜백 설정
-    checkpoint = ModelCheckpoint("best_model.h5", monitor='val_loss', verbose=1, save_best_only=True)
+    checkpoint = ModelCheckpoint("model/GRU_model.h5", monitor='val_loss', verbose=1, save_best_only=True)
 
     # 모델 학습
     history = model.fit(x_train, np.array(y_train), epochs=50,
